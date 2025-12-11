@@ -328,7 +328,7 @@ const ChatInterface = ({ messages, onSendMessage, isProcessing, onToggleSidebar,
           )}
           <Bot className="w-6 h-6 text-purple-600" />
           <h2 className="text-lg md:text-xl font-bold">
-            Assistant
+            Chat Assistant
           </h2>
         </div>
         <div className="text-xs text-gray-500 hidden sm:block">
