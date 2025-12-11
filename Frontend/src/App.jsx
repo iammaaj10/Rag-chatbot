@@ -449,7 +449,7 @@ const ChatInterface = ({ messages, onSendMessage, isProcessing, onToggleSidebar,
           <button
             onClick={handleSend}
             disabled={isProcessing}
-            className="bg-purple-600 text-white w-12 h-12 rounded-full hover:bg-purple-700 disabled:bg-gray-400 flex items-center justify-center flex-shrink-0 shadow-md transition-transform active:scale-95"
+            className="bg-blue-700 text-white w-12 h-12 rounded-full hover:bg-blue-800 disabled:bg-gray-400 flex items-center justify-center flex-shrink-0 shadow-md transition-transform active:scale-95"
           >
             <Send className="w-5 h-5 ml-0.5" />
           </button>
